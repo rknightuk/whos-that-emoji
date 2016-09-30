@@ -1,0 +1,55 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: sans-serif;
+  max-width: 600px;
+  font-size: 22px;
+  text-align: center;
+}
+
+footer {
+	border-top: 1px solid #DADFE1;
+	font-size: 16px;
+}
+
+.finished-emoji {
+    font-size: 50px;
+    line-height: 0;
+}
+
+.wte-score {
+	padding: 10px;
+}
+
+.wte-score-amount {
+	font-weight: bold;
+}
+
+.wte-answer {
+	
+}
+
+.wte-answer-symbol {
+	font-size: 100px;
+	color: transparent;
+    text-shadow: 0 0 0 #03507E;
+}
+
+.wte-answer-symbol-answered {
+	font-size: 100px;
+	color: white;
+}
+
+.wte-choices {
+	list-style: none;
+	margin-left: -40px;
+}
+
+.wte-choice {
+	padding: 10px;
+}
+
+.wte-choice:hover {
+	background: #DADFE1;
+	cursor: pointer;
+}
